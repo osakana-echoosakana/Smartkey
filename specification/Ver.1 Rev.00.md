@@ -24,7 +24,7 @@ MustからWantへ。まず最初にMustを作成
 ## Must
 ・鍵を開ける機能
 ・閉める機能
-・NFC or BLEで開け閉め
+・NFC or Bluetoothで開け閉め
 ## Want
 ・ECHONET Lite対応　→ 独自電文 or 規定のもの
 ・ケース？
@@ -32,6 +32,7 @@ MustからWantへ。まず最初にMustを作成
 ・IPSec暗号
 ### 2.1 Must - 鍵を開ける機能
 ・操作方法：NFC or BLE
-・認証方法：NFC → IDm？
-
+・認証方法：NFC → IDm + PMm？
+　　　　　　BLE  →  LE Secure Connectionsを使用してコネクションを作成後、ChaCha20-Poly1305にて暗号化したUUIDを送信？
+　　　　　　
 ## ファイ ル
